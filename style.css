@@ -1,0 +1,123 @@
+/**
+ * Static: Default positioning
+ **/
+
+
+
+
+
+.Your   {
+	background-color: #20B2AA;
+	width: 15%;
+	height: 50px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	float: left;
+	margin-left: 100px;
+}
+
+.About   {
+  background-color:white; 
+  color: grey;
+  width: 10%; 
+  float: left;
+  margin-left:400px;
+  
+
+}
+.Portfolio{
+	background-color: white;
+	width: 10%;
+	color: grey;
+	float: left;
+}
+.Contact  {
+	background-color: white;
+	width: 10%
+	color: grey;
+	float: left;
+}
+.footer  {
+	
+	margin-top:0px;
+	float:left;
+	width:99%;
+	background-color: #ccc;
+	height: 519px;
+	margin-left: 10px;
+	
+}
+.connect {
+	text-align: center;
+	float:left;
+	margin-top:20px;
+	color:#20B2AA;
+	width: 25%;
+	background-color: white;
+	margin-left: 50px;
+	height:200px;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+
+.Bio  {
+	margin-top:20px;
+	background-color: white;
+	font-weight: bold;
+	color:#20B2AA;
+	width: 30%;
+	font-size: 200%;
+	margin-left:90px;
+	height: 250px;
+	text-align: center;
+	float: left;
+	
+}
+p {
+font-size: 100%;
+color: black;
+}
+img {
+	float: left;
+	height: 110px;
+	width: 120px;
+	margin-left: 0px;
+}
+.linkedin {
+	width: 50%;
+	float: left;
+	margin-left:0px;
+}
+.blue{
+	clear:both;
+	overflow: auto;
+	float:left;
+	background-color: #20B2AA;
+	margin-top:0px;
+	width: 120%;
+	height: 10px;
+}
+.joseph{
+	background-color: #666;
+	text-align: center;
+	width: 100%;
+	margin-top: 500px;
+	height: 100px;
+}
+@media screen and (max-width: 980px) {
+  }
+
+@media screen and (max-width: 768px) {
+body {
+	background-color: #6495ED;
+}
+@media screen and (max-width: 640px) {
+body { 
+background-color: blue; 
+}
+.Your { position:static; }
+}
+
